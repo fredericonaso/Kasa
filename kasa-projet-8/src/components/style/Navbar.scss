@@ -1,0 +1,22 @@
+.nav-bar {
+    display: flex;
+    width: 100%;
+    justify-content:space-between ;
+    align-items: center;
+    padding-top: 1%;
+    padding-left: 1%;
+    img{
+        width: 5%;
+    }
+    &-links{
+        display: flex;
+        width: 25%;
+        justify-content: space-around;
+        a{
+            color: #FF6060;
+            text-decoration: none;
+        }
+    }  
+    
+}
+
