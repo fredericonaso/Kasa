@@ -1,6 +1,6 @@
 
 
-import './style/footer.scss'
+import './style/footerBar.scss'
 import logo from '../assets/logo.svg';
 
 
