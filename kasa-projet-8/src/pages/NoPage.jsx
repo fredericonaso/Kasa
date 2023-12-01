@@ -6,10 +6,13 @@ import { Link } from 'react-router-dom';
 
 
 const Error = () => {
-    return(
-       <> <ErrorLogo />
-        <span>Oups! La page que vous demandez n'existe pas.</span>
-        <Link to='/' className='backToHome'>Retournez sur la page d'accueil</Link>
+    return (
+        <>
+            <div className='NoPageMain'>
+                <ErrorLogo />
+                <span>Oups! La page que vous demandez n'existe pas.</span>
+                <Link to='/' className='backToHome'>Retournez sur la page d'accueil</Link>
+            </div>
         </>
     );
 }
