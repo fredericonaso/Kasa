@@ -6,9 +6,9 @@ import logo from '../assets/logo.svg';
 
 const Footer = () => {
     return (
-        <div ClassName="footer">
-            <img alt="kasa-logo" src={logo} ClassName="footer-logo"/>
-            <span ClassName="footer-text">© 2020 Kasa. All rights reserved</span>
+        <div className="footer">
+            <img alt="kasa-logo" src={logo} className="footer-logo"/>
+            <span className="footer-text">© 2020 Kasa. All rights reserved</span>
         </div>
     );
 }
