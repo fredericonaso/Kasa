@@ -1,8 +1,9 @@
 import "../components/style/home.scss"
 import ImageSource1 from '../assets/Image_source_1.png';
-import Logements from '../components/Logements'
+import Cards from '../components/card'
+import logementsData from '../logements.json';
 
-const Home = () => {
+function Home() {
     return (
         <>
             <div className="carousel-ac">
@@ -11,7 +12,10 @@ const Home = () => {
             </div>
             <section className="housing">
                 <div className='housingGallery'>
-                    <Logements />
+                    {logementsData && logementsData.map(logement => (
+                        <Cards key={logement.id} cover={logement.cover} title={logement.title} />
+                    ))}
+
                 </div>
             </section>
         </>

@@ -1,0 +1,29 @@
+.dropdown{
+    width: 100%;
+    background-color: #ff6060;
+    color: white;
+    width: 75%;
+    height: 54px;
+    border-radius: 5px;
+    .dropdown-toggle{
+        width: 95%;
+        height: 30%;
+        display: flex;
+        justify-content: space-between;
+        
+        padding-left: 10px;
+        padding-right: 10px;
+        .arrow:active{
+            transform: rotate(180deg);
+        }
+    }
+    .dropdown-content{
+        width: 100%;
+        height: 80%;
+        height: auto;
+        background-color: #f3f3f3;
+        color: #ff6060;
+        transition: all 0.7s ease; 
+    }
+}
+

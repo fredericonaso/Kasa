@@ -1,4 +1,4 @@
-.carousel-ap {
+.carousel {
     display: flex;
     justify-content: center;
     padding-top: 50px;
@@ -21,11 +21,13 @@
             border-bottom-left-radius: 15px;
         }
     }
-}
 
-.Main{
-    display: flex;
-    padding-bottom: 38px;
-    flex-flow: column wrap;
-    gap: 20px;
+    &-slogan {
+        position: absolute;
+        z-index: 10;
+        font-size: 48px;
+        color: white;
+        text-align: center;
+        top: 115px;
+    }
 }
