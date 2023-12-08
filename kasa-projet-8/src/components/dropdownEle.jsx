@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './style/dropdown.scss';
+import './style/componentsSCSS/dropdown.scss';
 import { SlArrowUp } from "react-icons/sl";
 
 

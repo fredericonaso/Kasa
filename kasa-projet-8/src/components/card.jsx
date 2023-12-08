@@ -1,6 +1,6 @@
 
 
-import './style/card.scss'
+import './style/componentsSCSS/card.scss'
 
 
 

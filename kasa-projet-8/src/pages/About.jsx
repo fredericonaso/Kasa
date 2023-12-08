@@ -1,5 +1,5 @@
 import ImageSource2 from '../assets/Image source 2.png'
-import '../components/style/about.scss'
+import '../components/style/PagesSCSS/about.scss'
 import Dropdown from '../components/dropdownEle';
 
 export default function About() {

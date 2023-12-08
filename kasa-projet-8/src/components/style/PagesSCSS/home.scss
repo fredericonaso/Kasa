@@ -1,4 +1,4 @@
-.carousel {
+.carousel-ac {
     display: flex;
     justify-content: center;
     padding-top: 50px;
@@ -30,4 +30,26 @@
         text-align: center;
         top: 115px;
     }
+}
+
+.housing {
+    display: flex;
+    background-color: #F6F6F6;
+    width: 100%;
+    justify-content: center;
+    .housingGallery {
+        display: flex;
+        width: 80%;
+        flex-flow: row wrap;
+        align-content: center;
+        gap: 40px;
+        justify-content: space-evenly;
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+    }
+}
+
+.link{
+    width: 100%;
 }

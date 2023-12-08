@@ -3,9 +3,14 @@
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-between;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
     span{
         color: #FF6060;
-        font-size: 38;
+        font-size: 38px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     .backToHome{
         color: #FF6060;
