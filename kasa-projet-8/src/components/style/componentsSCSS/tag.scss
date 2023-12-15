@@ -1,9 +1,11 @@
 .tag{
-    width: 15%;
+    width: 115px;
     background-color: #ff6060;
     height: 25px;
     border-radius: 10px;
+    text-align: center;
     &-name{
         color: white;
+        
     }
 }

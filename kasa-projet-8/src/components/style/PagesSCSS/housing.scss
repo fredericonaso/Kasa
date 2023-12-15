@@ -1,0 +1,43 @@
+.housing-main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.housing-details {
+    display: flex;
+    flex-direction: column;
+    .title{
+        font-size:50px;
+        color: #ff6060;
+    }
+    .location{
+        font-size:36px;
+        color: #ff6060;
+    }
+    &-proprio{
+        display: flex;
+        justify-content: flex-end;
+        span{
+            font-size: 30px;
+            font-weight: 400;
+            color: #ff6060;
+        }
+        img{
+            border-radius: 50%;
+        }
+    }
+    &-tags-rating{
+        display: flex;
+        flex-flow: row;
+        justify-content:space-between;
+        .tags{
+        display: flex;
+        gap: 10px;
+        }
+        .rating{
+            font-size: 40px;
+        }
+    }
+    &-dropdowns{
+        display: flex;
+    }
+}

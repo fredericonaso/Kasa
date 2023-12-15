@@ -13,12 +13,12 @@ function Home() {
                 <span className="carousel-ac-slogan">Chez vous, partout et ailleurs</span>
             </div>
             <section className="housing">
-                <Link to='/Housing' className='housingGallery'><div className='housingGallery'>
+                <div className='housingGallery'>
                     {logementsData && logementsData.map(logement => (
-                        <Cards key={logement.id} cover={logement.cover} title={logement.title} />
+                        <Link to={`/Housing/${logement.id}`} className="card" key={logement.id}><Cards key={logement.id} cover={logement.cover} title={logement.title} /></Link>
                     ))}
 
-                </div></Link>
+                </div>
             </section>
         </>
     );

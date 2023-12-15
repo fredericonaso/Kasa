@@ -33,17 +33,20 @@
 }
 
 .housing {
-    display: flex;
+    display: grid;
     background-color: #F6F6F6;
     width: 100%;
     justify-content: center;
+    align-content: center;
+    justify-items: center;
     .housingGallery {
-        display: flex;
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
         width: 80%;
-        flex-flow: row wrap;
-        align-content: center;
-        gap: 40px;
-        justify-content: space-evenly;
+        gap: 90px;
         padding-top: 40px;
         padding-bottom: 40px;
 
@@ -52,4 +55,8 @@
 
 .link{
     width: 100%;
+}
+
+.card{
+    width: 70%;
 }

@@ -6,7 +6,7 @@
     padding-top: 1%;
     padding-left: 1%;
     img{
-        width: 5%;
+        width: 210px;
     }
     &-links{
         display: flex;
@@ -15,8 +15,17 @@
         a{
             color: #FF6060;
             text-decoration: none;
+            font-size: 24px;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: #FF6060;
         }
     }  
     
+}
+.bottomBar{
+    text-decoration: underline;
+    color: #FF6060;
 }
 
