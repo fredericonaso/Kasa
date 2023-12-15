@@ -26,11 +26,15 @@ const Housing = () => {
             <section className='housing-main'>
                 <Carousel images={selectedLogement.pictures} />
                 <div className="housing-details" key={selectedLogement.id}>
-                    <h2 className='title'>{selectedLogement.title}</h2>
-                    <span className='location'>{selectedLogement.location}</span>
-                    <div className='housing-details-proprio'>
-                        <span>{selectedLogement.host.name}</span>
-                        <img src={selectedLogement.host.picture} alt="" />
+                    <div className='housing-details-proprio-title'>
+                        <div className='title-location'>
+                            <h2 className='title'>{selectedLogement.title}</h2>
+                            <span className='location'>{selectedLogement.location}</span>
+                        </div>
+                        <div className='proprio'>
+                            <span>{selectedLogement.host.name}</span>
+                            <img src={selectedLogement.host.picture} alt="" />
+                        </div>
                     </div>
                     <div>
                         <div className='housing-details-tags-rating'>

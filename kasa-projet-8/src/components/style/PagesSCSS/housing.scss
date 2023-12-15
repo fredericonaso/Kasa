@@ -1,43 +1,70 @@
-.housing-main{
+.housing-main {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 .housing-details {
     display: flex;
     flex-direction: column;
-    .title{
-        font-size:50px;
-        color: #ff6060;
-    }
-    .location{
-        font-size:36px;
-        color: #ff6060;
-    }
-    &-proprio{
+
+    .housing-details-proprio-title {
         display: flex;
-        justify-content: flex-end;
-        span{
-            font-size: 30px;
-            font-weight: 400;
-            color: #ff6060;
+        padding-top: 20px;
+
+        .title-location {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            .title {
+                font-size: 36px;
+                color: #ff6060;
+                margin: 0;
+                width: 80%;
+            }
+
+            .location {
+                font-size: 18px;
+                color: #ff6060;
+                width: 35%;
+            }
         }
-        img{
-            border-radius: 50%;
+
+        .proprio {
+            display: flex;
+            justify-content: flex-end;
+            width: 35%;
+            padding-bottom: 10px;
+
+            span {
+                font-size: 30px;
+                font-weight: 400;
+                color: #ff6060;
+                width: 33%;
+                margin: 0;
+            }
+
+            img {
+                border-radius: 50%;
+            }
         }
     }
-    &-tags-rating{
+
+    &-tags-rating {
         display: flex;
         flex-flow: row;
-        justify-content:space-between;
-        .tags{
-        display: flex;
-        gap: 10px;
+        justify-content: space-between;
+
+        .tags {
+            display: flex;
+            gap: 10px;
         }
-        .rating{
+
+        .rating {
             font-size: 40px;
         }
     }
-    &-dropdowns{
+
+    &-dropdowns {
         display: flex;
     }
 }
